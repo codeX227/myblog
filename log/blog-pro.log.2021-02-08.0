@@ -1,0 +1,3 @@
+2021-02-08 11:41:37.496  INFO 640 --- [main] com.star.MyblogApplicationTests          : Starting MyblogApplicationTests on DESKTOP-0CT5CM7 with PID 640 (started by 18727 in D:\AA个人文件\JavaDemos\myblog-mybatis)
+2021-02-08 11:41:37.509  INFO 640 --- [main] com.star.MyblogApplicationTests          : The following profiles are active: pro
+2021-02-08 11:41:42.320  INFO 640 --- [main] com.star.MyblogApplicationTests          : Started MyblogApplicationTests in 5.797 seconds (JVM running for 7.418)
