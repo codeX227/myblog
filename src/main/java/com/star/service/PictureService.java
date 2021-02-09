@@ -6,10 +6,7 @@ import java.util.List;
 
 /**
  * @Description: 照片墙业务层接口
- * @Date: Created in 23:30 2020/4/16
- * @Author: ONESTAR
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
+ * @Author: Goodenough
  */
 public interface PictureService {
 
