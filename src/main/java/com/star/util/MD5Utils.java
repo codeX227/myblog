@@ -11,8 +11,8 @@ public class MD5Utils {
 
     /**
      * @Description: MD5加密
-     * @Param: 要加密的字符串
-     * @Return: 加密后的字符串
+     * @param str 要加密的字符串
+     * @return 加密后的字符串
      */
     public static String code(String str){
         try {

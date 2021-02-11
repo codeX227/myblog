@@ -15,7 +15,6 @@ public class DetailedBlog {
     private String flag;
     private String title;
     private String content;
-
     private Integer views;
     private Integer commentCount;
     private Date updateTime;

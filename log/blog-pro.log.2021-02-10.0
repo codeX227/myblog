@@ -1,0 +1,3 @@
+2021-02-10 10:30:46.300  INFO 1272 --- [main] com.star.MyblogApplicationTests          : Starting MyblogApplicationTests on DESKTOP-0CT5CM7 with PID 1272 (started by 18727 in D:\AA个人文件\JavaDemos\自己敲得\myblog)
+2021-02-10 10:30:46.316  INFO 1272 --- [main] com.star.MyblogApplicationTests          : The following profiles are active: pro
+2021-02-10 10:30:51.102  INFO 1272 --- [main] com.star.MyblogApplicationTests          : Started MyblogApplicationTests in 5.934 seconds (JVM running for 7.753)

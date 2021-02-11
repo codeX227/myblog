@@ -22,7 +22,7 @@ public class MarkdownUtils {
 
     /**
      * markdown格式转换成HTML格式
-     * @param markdown
+     * @param markdown 文本
      * @return String
      */
     public static String markdownToHtml(String markdown) {
@@ -35,7 +35,7 @@ public class MarkdownUtils {
     /**
      * 增加扩展[标题锚点，表格生成]
      * Markdown转换成HTML
-     * @param markdown
+     * @param markdown 文本
      * @return String
      */
     public static String markdownToHtmlExtensions(String markdown) {

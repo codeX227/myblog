@@ -107,9 +107,7 @@
         <result property="commentCount" column="comment_count"/>
         <result property="updateTime" column="update_time"/>
         <result property="description" column="description"/>
-
         <result property="typeName" column="name"/>
-
         <result property="nickname" column="nickname"/>
         <result property="avatar" column="avatar"/>
     </resultMap>
