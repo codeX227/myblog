@@ -1,9 +1,7 @@
-package com.star.service.Impl;
+package com.star.service.impl;
 
-import com.star.dao.BlogDao;
 import com.star.dao.TypeDao;
 import com.star.entity.Type;
-import com.star.queryvo.FirstPageBlog;
 import com.star.service.TypeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

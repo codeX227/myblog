@@ -31,6 +31,9 @@
         where c.parent_message_id = #{childId}
         order by c.create_time desc
     </select>
+    <select id="findById" resultType="com.star.entity.Message">
+        select  * from myblog.t_message where id = #{id}
+    </select>
 
     <!--删除留言-->
     <delete id="deleteMessage" >

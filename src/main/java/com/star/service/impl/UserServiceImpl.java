@@ -1,4 +1,4 @@
-package com.star.service.Impl;
+package com.star.service.impl;
 
 import com.star.dao.UserDao;
 import com.star.entity.User;
