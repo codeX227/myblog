@@ -11,13 +11,8 @@ import org.springframework.mail.MailMessage;
 @SpringBootTest
 class MyblogApplicationTests {
 
-    @Autowired
-    private MessageDao messageDao;
-
     @Test
     void contextLoads() {
-        Message message = messageDao.findById(101L);
-        System.out.println(message);
     }
 
 }

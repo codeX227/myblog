@@ -160,3 +160,81 @@
 2021-02-13 17:51:50.136 DEBUG 13336 --- [http-nio-8080-exec-9] com.star.dao.MessageDao.findByReplayId   : ==> Parameters: 104(Long)
 2021-02-13 17:51:50.137 DEBUG 13336 --- [http-nio-8080-exec-9] com.star.dao.MessageDao.findByReplayId   : <==      Total: 0
 2021-02-13 17:51:50.138  INFO 13336 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : message::messageList
+2021-02-13 18:01:00.457  INFO 8284 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-0CT5CM7 with PID 8284 (started by 18727 in D:\AAä¸ªäººæ–‡ä»¶\JavaDemos\è‡ªå·±æ•²å¾—\myblog)
+2021-02-13 18:01:00.497 DEBUG 8284 --- [restartedMain] com.star.MyblogApplication               : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-02-13 18:01:00.498  INFO 8284 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: dev
+2021-02-13 18:01:00.564  INFO 8284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-13 18:01:00.564  INFO 8284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-13 18:01:02.622  INFO 8284 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-13 18:01:02.632  INFO 8284 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-13 18:01:02.632  INFO 8284 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-02-13 18:01:02.713  INFO 8284 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-13 18:01:02.714  INFO 8284 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2150 ms
+2021-02-13 18:01:04.231  INFO 8284 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 18:01:04.360  INFO 8284 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-13 18:01:04.766  INFO 8284 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-13 18:01:04.832  INFO 8284 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-13 18:01:04.835  INFO 8284 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 5.67 seconds (JVM running for 8.398)
+2021-02-13 18:01:12.920  INFO 8284 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-13 18:01:44.901  INFO 9340 --- [main] com.star.MyblogApplicationTests          : Starting MyblogApplicationTests on DESKTOP-0CT5CM7 with PID 9340 (started by 18727 in D:\AA¸öÈËÎÄ¼þ\JavaDemos\×Ô¼ºÇÃµÃ\myblog)
+2021-02-13 18:01:44.913 DEBUG 9340 --- [main] com.star.MyblogApplicationTests          : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-02-13 18:01:44.913  INFO 9340 --- [main] com.star.MyblogApplicationTests          : The following profiles are active: dev
+2021-02-13 18:01:48.961  INFO 9340 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 18:01:49.288  INFO 9340 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-13 18:01:50.070  INFO 9340 --- [main] com.star.MyblogApplicationTests          : Started MyblogApplicationTests in 6.264 seconds (JVM running for 9.311)
+2021-02-13 18:01:50.465  INFO 9340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-13 18:01:50.926  INFO 9340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-13 18:01:50.945 DEBUG 9340 --- [main] com.star.dao.MessageDao.findById         : ==>  Preparing: select * from myblog.t_message where id = ? 
+2021-02-13 18:01:50.978 DEBUG 9340 --- [main] com.star.dao.MessageDao.findById         : ==> Parameters: 101(Long)
+2021-02-13 18:01:51.047 DEBUG 9340 --- [main] com.star.dao.MessageDao.findById         : <==      Total: 1
+2021-02-13 18:01:51.182  INFO 9340 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-13 18:01:51.184  INFO 9340 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-13 18:01:51.272  INFO 9340 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-02-13 18:10:14.420  INFO 8068 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-0CT5CM7 with PID 8068 (started by 18727 in D:\AAä¸ªäººæ–‡ä»¶\JavaDemos\è‡ªå·±æ•²å¾—\myblog)
+2021-02-13 18:10:14.440 DEBUG 8068 --- [restartedMain] com.star.MyblogApplication               : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-02-13 18:10:14.440  INFO 8068 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: dev
+2021-02-13 18:10:14.517  INFO 8068 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-13 18:10:14.517  INFO 8068 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-13 18:10:16.727  INFO 8068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-13 18:10:16.738  INFO 8068 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-13 18:10:16.738  INFO 8068 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-02-13 18:10:16.824  INFO 8068 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-13 18:10:16.824  INFO 8068 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2307 ms
+2021-02-13 18:10:18.029  INFO 8068 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 18:10:18.134  INFO 8068 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-13 18:10:18.480  INFO 8068 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-13 18:10:18.543  INFO 8068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-13 18:10:18.547  INFO 8068 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 4.973 seconds (JVM running for 6.802)
+2021-02-13 18:10:23.835  INFO 8068 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-13 18:10:23.835  INFO 8068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-13 18:10:23.853  INFO 8068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2021-02-13 18:10:23.899  INFO 8068 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-02-13 18:10:23.948  INFO 8068 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-13 18:10:24.299  INFO 8068 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-13 18:10:24.352 DEBUG 8068 --- [http-nio-8080-exec-1] c.s.dao.BlogDao.getFirstPageBlog_COUNT   : ==>  Preparing: SELECT count(0) FROM myblog.t_blog b, myblog.t_type t, myblog.t_user u WHERE b.type_id = t.id AND u.id = b.user_id 
+2021-02-13 18:10:24.374 DEBUG 8068 --- [http-nio-8080-exec-1] c.s.dao.BlogDao.getFirstPageBlog_COUNT   : ==> Parameters: 
+2021-02-13 18:10:24.481 DEBUG 8068 --- [http-nio-8080-exec-1] c.s.dao.BlogDao.getFirstPageBlog_COUNT   : <==      Total: 1
+2021-02-13 18:10:24.484 DEBUG 8068 --- [http-nio-8080-exec-1] com.star.dao.BlogDao.getFirstPageBlog    : ==>  Preparing: select b.id,b.title,b.first_picture, b.views, b.comment_count,b.update_time,b.description, t.name , u.nickname, u.avatar from myblog.t_blog b, myblog.t_type t,myblog.t_user u where b.type_id = t.id and u.id = b.user_id order by b.update_time desc LIMIT ? 
+2021-02-13 18:10:24.484 DEBUG 8068 --- [http-nio-8080-exec-1] com.star.dao.BlogDao.getFirstPageBlog    : ==> Parameters: 10(Integer)
+2021-02-13 18:10:24.498 DEBUG 8068 --- [http-nio-8080-exec-1] com.star.dao.BlogDao.getFirstPageBlog    : <==      Total: 3
+2021-02-13 18:10:24.499 DEBUG 8068 --- [http-nio-8080-exec-1] c.star.dao.BlogDao.getAllRecommendBlog   : ==>  Preparing: select * from myblog.t_blog where t_blog.recommend = true order by t_blog.update_time desc limit 4; 
+2021-02-13 18:10:24.499 DEBUG 8068 --- [http-nio-8080-exec-1] c.star.dao.BlogDao.getAllRecommendBlog   : ==> Parameters: 
+2021-02-13 18:10:24.509 DEBUG 8068 --- [http-nio-8080-exec-1] c.star.dao.BlogDao.getAllRecommendBlog   : <==      Total: 2
+2021-02-13 18:10:24.511  INFO 8068 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-02-13 18:10:26.250  INFO 8068 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-02-13 18:10:26.252 DEBUG 8068 --- [http-nio-8080-exec-10] com.star.dao.BlogDao.getBlogTotal        : ==>  Preparing: select count(*) from myblog.t_blog 
+2021-02-13 18:10:26.253 DEBUG 8068 --- [http-nio-8080-exec-10] com.star.dao.BlogDao.getBlogTotal        : ==> Parameters: 
+2021-02-13 18:10:26.302 DEBUG 8068 --- [http-nio-8080-exec-10] com.star.dao.BlogDao.getBlogTotal        : <==      Total: 1
+2021-02-13 18:10:26.302 DEBUG 8068 --- [http-nio-8080-exec-10] com.star.dao.BlogDao.getBlogViewTotal    : ==>  Preparing: select sum(views) from myblog.t_blog 
+2021-02-13 18:10:26.302 DEBUG 8068 --- [http-nio-8080-exec-10] com.star.dao.BlogDao.getBlogViewTotal    : ==> Parameters: 
+2021-02-13 18:10:26.304 DEBUG 8068 --- [http-nio-8080-exec-10] com.star.dao.BlogDao.getBlogViewTotal    : <==      Total: 1
+2021-02-13 18:10:26.304 DEBUG 8068 --- [http-nio-8080-exec-10] c.star.dao.BlogDao.getBlogCommentTotal   : ==>  Preparing: select count(*) from myblog.t_comment 
+2021-02-13 18:10:26.304 DEBUG 8068 --- [http-nio-8080-exec-10] c.star.dao.BlogDao.getBlogCommentTotal   : ==> Parameters: 
+2021-02-13 18:10:26.310 DEBUG 8068 --- [http-nio-8080-exec-10] c.star.dao.BlogDao.getBlogCommentTotal   : <==      Total: 1
+2021-02-13 18:10:26.311 DEBUG 8068 --- [http-nio-8080-exec-10] c.star.dao.BlogDao.getBlogMessageTotal   : ==>  Preparing: select count(*) from myblog.t_message 
+2021-02-13 18:10:26.312 DEBUG 8068 --- [http-nio-8080-exec-10] c.star.dao.BlogDao.getBlogMessageTotal   : ==> Parameters: 
+2021-02-13 18:10:26.319 DEBUG 8068 --- [http-nio-8080-exec-10] c.star.dao.BlogDao.getBlogMessageTotal   : <==      Total: 1
+2021-02-13 18:10:26.321  INFO 8068 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-02-13 18:10:37.725  INFO 8068 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-13 18:10:37.726  INFO 8068 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-13 18:10:37.795  INFO 8068 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
