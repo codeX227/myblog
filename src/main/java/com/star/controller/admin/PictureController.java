@@ -30,7 +30,7 @@ public class PictureController {
     public String pictures(Model model,@RequestParam(defaultValue = "1",value = "pageNum") Integer pageNum) {
         PageHelper.startPage(pageNum,10);
         List<Picture> listFriendLink = pictureService.listPicture();
-        PageInfo<Picture> pageInfo = new PageInfo<Picture>(listFriendLink);
+        PageInfo<Picture> pageInfo = new PageInfo<>(listFriendLink);
         model.addAttribute("pageInfo",pageInfo);
         return "admin/pictures";
     }

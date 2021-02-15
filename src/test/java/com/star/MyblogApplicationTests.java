@@ -13,6 +13,7 @@ class MyblogApplicationTests {
 
     @Test
     void contextLoads() {
+
     }
 
 }
